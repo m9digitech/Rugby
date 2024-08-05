@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NZ Rugby</title>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link href="rugbyStyle.css" rel="stylesheet" type="text/css" />
+<link href="print.css" rel="stylesheet" type="text/css" media="print"/>
+<!--the 2 link elements above proccess the connection to the external css-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--line 9-12 are part of the bootstrap codes for the navbar-->
+<script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="images/malaysia/batu.jpg"
+var image2=new Image()
+image2.src="images/malaysia/beach.jpg"
+var image3=new Image()
+image3.src="images/malaysia/bird.png"
+var image4=new Image()
+image4.src="images/malaysia/garden.jpg"
+var image5=new Image()
+image5.src="images/malaysia/harbour.jpg"
+var image6=new Image()
+image6.src="images/malaysia/house.jpg"
+var image7=new Image()
+image7.src="images/malaysia/klang.jpg"
+var image8=new Image()
+image8.src="images/malaysia/mosque.jpg"
+var image9=new Image()
+image9.src="images/malaysia/paradise.jpg"
+var image10=new Image()
+image10.src="images/malaysia/people.jpg"
+var image11=new Image()
+image11.src="images/malaysia/tower.jpg"
+//-->
+</script>
+<style>
+body {font-family: 'Droid Sans', sans-serif;}
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<header>
+<a href="index.html">
+<img src="images/atl_header.png" title="Welcome to NZ Rugby"  width="100%" height="auto" /></a>
+</header><br>
+<!--the header element above place the header at the top of page-->
+<center><div id="nav">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="font-size:28px">Rugby</a>
+    </div>
+    <ul class="nav navbar-nav">
+	  <li><a href="nzrugby.html">NZ Rugby</a></li>
+      <li><a href="aurugby.html">AU Rugby</a></li>
+      <li><a href="pasifikirugby.html">Pasifiki Rugby</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+</center>
+
+<!--the bootstrap nav element above ensure the web page can displayed smoothly on different size screens-->
+<div class="container">
+<h3>New Zealand Rugby</h3>
+<table style="width:100%">
+  <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/FZQjoWkzIjk?si=kI9O8bq3Fu3qKSI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/OcMkNGa0VWI?si=JlpG9sKwRTvKSqzT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+  </tr>
+</table>
+<br>
+<p><h3>WHO WE ARE</h3>
+New Zealand Rugby (NZR) is one of New Zealand's largest sports organisations, with a team committed to ensuring that our national game is run smoothly and effectively at all levels, all over New Zealand.
+</br>
+<h3>Our Vision</h3>h3>
+Inspiring and Unifying through rugby.
+It’s our goal to be a world-leading sports organisation, helping all of rugby to be the best it can be.
+We lead, support, grow and promote New Zealand's game, striving for rugby teams in black that are unrivalled, a high-performance system that produces the world’s best talent, competitions that fans love, and a community game at the heart of the sport that is strong.
+We are committed to New Zealand rugby being financially secure, attracting top partners and contributing actively to the global game.
+</br>
+<h3>Our Executive Team</h3>h3>
+NZR is made up of seven teams: Professional Rugby and Performance, Community Rugby, Commercial, Technology, People, Safety and Wellbeing, Corporate Services and All Blacks and is headed by a Chief Executive Officer (CEO), who is supported by an Executive Team (known as 'The Exec'), Leadership Team and other management.
+The Exec, as people leaders, are responsible for the day to day running of NZR, while the CEO is ultimately responsible for ensuring that NZR's strategy is implemented and that the organisation achieves its objectives. The CEO and Exec work closely with the NZR Board and provide a link between staff and the Board.
+.</p>
+</div>
+<img src="images/nzrugby/max.jpg" title="All Blacks." name="slide" width="80%" height="auto" />
+
+<div class="w3-content w3-section" style="max-width:500px">
+ <img class="mySlides" src="images/nzrugby/max.jpg" style="width:100%"> 
+ <img class="mySlides" src="images/nzrugby/quino2.jpg" style="width:100%">
+ <img class="mySlides" src="images/nzrugby/rugby_Quino6.jpg" style="width:100%">
+ <img class="mySlides" src="images/nzrugby/stefan1.jpg" style="width:100%">
+ <img class="mySlides" src="images/nzrugby/stefan2.jpg" style="width:100%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every second, change the number to 2000 if you want it to be every 2 seconds.
+}
+</script>
+<div class="container">
+<h3>Club Level Rugby</h3>
+<p>The structure of the game in NZ start a U6 grade and goes all the way to U13 which is run by the local clubs.</p>
+<div class="container; margin: 0 auto;">
+<table>
+  <tr>
+    <th><img src="images/nzrugby/stefan1.jpg" title="image taken by Stefan"  width="100%" height="auto" /></th>
+    <th><img src="images/nzrugby/max.jpg" title="image taken by Max"  width="100%" height="auto" /></th>
+    <th><img src="images/nzrugby/stefan2.jpg" title="image taken by Stefan"  width="100%" height="auto" /></th>
+  </tr>
+  <tr>
+    <td><img src="images/nzrugby/quino1.jpg" title="image taken by Quino"  width="100%" height="auto" /></td>
+    <td><img src="images/nzrugby/quino2.jpg" title="image taken by Quino"  width="100%" height="auto" /></td>
+    <td><img src="images/nzrugby/rugby_Quino6.jpg" title="image taken by Quino"  width="100%" height="auto" /></td>
+  </tr>
+
+</table>
+</div>
+<h3>Climate</h3>
+<p>Malaysia is a tropical .</p>
+<h3>Industries</h3>
+<p>Manufacturing constitutes .</p>
+<h3>Currency</h3>
+<p>The unit of currency is.</p>
+
+</div>
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<11)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",2500)
+}
+slideit()
+//-->
+</script><br>
+<div class="container">
+<p><h4>Acknowledgement and Attribution</h4>List of site references:<br>
+<a href="https://exiles.dk/history-of-rugby">Exiles!</a>
+<a href="">NZ Rugby, AU Rugby and Pasifiki Rugby</a>
+ </p></div>
+<footer>
+<p>Acknowledgement: </p>
+Copyright &copy 2023 m9Rugby Inc.
+</footer>
+</body>
+</html>
